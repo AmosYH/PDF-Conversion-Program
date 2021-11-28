@@ -1,2 +1,2 @@
 # PDF-Conversion-Program
-Convert various types of files to PDF
+The program can convert outlook message (msg), txt, string, csv, prt, tif, tiff, jpg, jpeg to PDF
