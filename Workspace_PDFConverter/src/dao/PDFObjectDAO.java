@@ -170,8 +170,8 @@ public class PDFObjectDAO {
 		
 		try {	
 			fileName = rpt.getOriFilePath();
-			int suffix = rpt.getOriFileName().indexOf('.');
-			OriFileName = rpt.getOriFileName().substring(0, suffix);
+			int prefix = rpt.getOriFileName().lastIndexOf('.');
+			OriFileName = rpt.getOriFileName().substring(0, prefix);
 			pdfName = OriFileName + ".pdf";
 			file2pdf = Utility.getProperty("destPath") + OriFileName + ".pdf";
 			
