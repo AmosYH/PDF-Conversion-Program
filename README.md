@@ -1,5 +1,7 @@
 # PDF-Conversion-Program
-The program can convert outlook message (msg), txt, string, csv, prt, tif, tiff, jpg, jpeg to PDF
+- The program can convert outlook message (msg), txt, string, csv, prt, tif, tiff, jpg, jpeg to PDF in large scale
+- The program will produce appropriate log files in log directory
+- The program will connect to the database for an entry that includes the original file path, original file format, and destination file path. The file's target filename and creation date will be updated in the database accordingly
 ## Required Package
 - commons-codec-1.10
 - commons-collections4-4.4
